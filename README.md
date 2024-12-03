@@ -11,6 +11,9 @@
 
 </div>
 
+## Figma Design
+[Figma preview](https://www.figma.com/design/LKrrol0Ewf554t6Xdk7Fbn/Client-first-Template-11---SaaS-(Community)?node-id=268-517&node-type=canvas&t=KxlIGHfpxLrXVyk7-0)
+
 ## Features
 
 This repository is 🔋 battery packed with:

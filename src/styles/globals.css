@@ -25,6 +25,15 @@
   --color-primary-700: rgb(var(--tw-color-primary-700)); /* #0369a1 */
   --color-primary-800: rgb(var(--tw-color-primary-800)); /* #075985 */
   --color-primary-900: rgb(var(--tw-color-primary-900)); /* #0c4a6e */
+
+  --color-theme-primary: 29 33 48; /* #1D2130 */
+  --color-theme-violet-light: 224 228 252; /* #E0E4FC  */
+  --color-theme-violet: 107 124 255; /* #6B7CFF */
+  --color-theme-white: 255 255 255; /* #FFFFFF */
+  --color-theme-primary-gradient-start: 55 63 255; /* #373FFF */
+  --color-theme-primary-gradient-end: 58 202 248; /* #3ACAF8 */
+  --color-theme-secondary-gradient-start: 215 152 225; /* #D798E1 */
+  --color-theme-secondary-gradient-end: 202 207 250; /* #CACFFA */
   /* #endregion  /**======== Primary Color =========== */
 }
 
@@ -114,5 +123,13 @@
   .animated-underline:hover,
   .animated-underline:focus-visible {
     background-size: 0 2px, 100% 2px;
+  }
+}
+
+@layer components {
+  /* For reusable component */
+
+  .row-space {
+    @apply space-y-12;
   }
 }
